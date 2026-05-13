@@ -23,7 +23,7 @@
 | Unidad # | NA | 1..n | Sí | Sin saltos no justificados |
 | Señal analítica | AU o área | Según técnica | Sí | Numérico |
 | Concentración calculada | mg/L | Según curva | Sí | Trazable a fórmula |
-| % liberado | % | 0–150 (referencial) | Sí | Revisar outliers |
+| % liberado | % | 0–100 (objetivo); >100 requiere investigación | Sí | Revisar outliers y sesgo analítico |
 | Observaciones | NA | Texto | No | Justificar incidencias |
 
 ## Tabla de captura (copiar/pegar)

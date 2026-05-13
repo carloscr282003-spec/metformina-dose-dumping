@@ -28,8 +28,11 @@ f_2 = 50 \cdot \log_{10}\left(\frac{100}{\sqrt{1 + \frac{1}{n}\sum_{t=1}^{n}(R_t
   `=POWER(B2-C2,2)`
 
 ### Fórmula Excel (ejemplo)
-Suponiendo datos en filas 2:9:
-`=50*LOG10(100/SQRT(1+AVERAGE(D2:D9)))`
+Suponiendo datos en filas 2:9 (n = número de tiempos):
+- Forma equivalente con promedio de cuadrados:  
+  `=50*LOG10(100/SQRT(1+AVERAGE(D2:D9)))`
+- Forma explícita con suma y n:  
+  `=50*LOG10(100/SQRT(1+(SUM(D2:D9)/COUNT(D2:D9))))`
 
 ### Interpretación base
 - **f2 ≥ 50**: perfiles similares.

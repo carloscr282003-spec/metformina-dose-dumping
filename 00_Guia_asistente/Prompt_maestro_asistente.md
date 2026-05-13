@@ -1,7 +1,7 @@
 # Prompt maestro — Asistente técnico-científico y QA
 
 ## Contexto del proyecto
-Investigación: **“Validación cruzada y evaluación de perfiles de disolución de metformina de liberación modificada en refresco para el estudio de dose dumping.”**
+Investigación: **“Validación cruzada y evaluación de perfiles de disolución de metformina de liberación modificada en refresco para el estudio de *dose dumping*.”**
 
 Este documento define cómo debe responder el asistente para asegurar trazabilidad, cumplimiento normativo y reproducibilidad.
 
