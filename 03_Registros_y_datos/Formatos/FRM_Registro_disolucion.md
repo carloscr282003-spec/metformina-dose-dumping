@@ -13,7 +13,7 @@
 | Columna | Unidad | Rango esperado | Obligatorio | Regla de integridad |
 |---|---|---|---|---|
 | ID corrida | NA | Texto único | Sí | No duplicados |
-| Condición (control/refresco) | NA | Catálogo | Sí | Debe existir en catálogo |
+| Condición (control / medio_refresco) | NA | Catálogo | Sí | Debe existir en catálogo |
 | Aparato disolución | NA | USP 1/2 (por confirmar) | Sí | Consistente por corrida |
 | RPM | rpm | Según método | Sí | Numérico > 0 |
 | Medio | NA | Según método | Sí | Catálogo |

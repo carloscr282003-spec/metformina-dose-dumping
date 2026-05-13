@@ -28,11 +28,8 @@ f_2 = 50 \cdot \log_{10}\left(\frac{100}{\sqrt{1 + \frac{1}{n}\sum_{t=1}^{n}(R_t
   `=POWER(B2-C2,2)`
 
 ### Fórmula Excel (ejemplo)
-Suponiendo datos en filas 2:9 (n = número de tiempos):
-- Forma equivalente con promedio de cuadrados:  
-  `=50*LOG10(100/SQRT(1+AVERAGE(D2:D9)))`
-- Forma explícita con suma y n:  
-  `=50*LOG10(100/SQRT(1+(SUM(D2:D9)/COUNT(D2:D9))))`
+Suponiendo datos en filas 2:9 (n = número de tiempos):  
+`=50*LOG10(100/SQRT(1+(SUM(D2:D9)/COUNT(D2:D9))))`
 
 ### Interpretación base
 - **f2 ≥ 50**: perfiles similares.
@@ -41,7 +38,7 @@ Suponiendo datos en filas 2:9 (n = número de tiempos):
 > Confirmar criterios formales aplicables en USP/FEUM para el caso específico.
 
 ## 4) Flujo en Minitab (resumen)
-1. Cargar datos en columnas: `Condicion`, `Tiempo`, `%Liberado`.
+1. Cargar datos en columnas: `Condición`, `Tiempo`, `%Liberado`.
 2. `Stat > Basic Statistics > Display Descriptive Statistics`.
 3. `Graph > Boxplot` y/o `Graph > Individual Value Plot` para outliers.
 4. Si aplica comparación por tiempo: `Stat > ANOVA > One-Way` (o no paramétrica si no se cumplen supuestos).
