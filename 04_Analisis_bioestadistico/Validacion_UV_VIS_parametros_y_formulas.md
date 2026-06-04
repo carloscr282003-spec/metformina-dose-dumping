@@ -66,7 +66,7 @@ Ejemplo:
 
 ### 6) f2 para comparación de perfiles
 \[
- f_2 = 50 \cdot \log_{10}\left(\left[1 + \frac{1}{n}\sum_{t=1}^{n}(R_t - T_t)^2\right]^{-0.5} \cdot 100\right)
+ f_2 = 50 \cdot \log_{10}\left(100 \cdot \left[1 + \frac{1}{n}\sum_{t=1}^{n}(R_t - T_t)^2\right]^{-0.5}\right)
 \]
 
 ### 7) %TMD (endpoint adicional)
