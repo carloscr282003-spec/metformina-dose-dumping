@@ -1,0 +1,2 @@
+run_id,lectura_id,fecha,analyst,equipo_uvvis_id,sample_id,condition,refresco_tipo,refresco_%_v/v,refresco_lote,refresco_fecha_apertura,refresco_desgasificado,medium,time_min,lambda_nm,absorbancia,dilution_factor,ecuacion_calibracion,concentration_calculada,percent_dissolved,comments
+RUN-2026-001,READ-2026-001,2026-06-04,,UV-01,S01,REFRESCO,Coca-Cola,,LOTE-CC-001,2026-06-04,SI,,15,POR DEFINIR,,1,Abs = m*C + b,,,""

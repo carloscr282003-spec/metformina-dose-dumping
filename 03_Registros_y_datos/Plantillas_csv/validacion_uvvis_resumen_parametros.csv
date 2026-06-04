@@ -1,0 +1,8 @@
+parametro,ensayo_id,fecha,analista,criterio_aceptacion,resultado,cumple,metodo_calculo,observaciones
+linealidad,VAL-001,2026-06-04,,,,r_o_r2,
+precision,VAL-002,2026-06-04,,,,%RSD,
+exactitud,VAL-003,2026-06-04,,,,%Recuperacion,
+lod,VAL-004,2026-06-04,,,,3.3*(sigma/m),
+loq,VAL-005,2026-06-04,,,,10*(sigma/m),
+robustez,VAL-006,2026-06-04,,,,comparacion_condiciones,
+estabilidad,VAL-007,2026-06-04,,,,comparacion_tiempo,
